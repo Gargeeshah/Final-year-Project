@@ -37,7 +37,7 @@ The list of objectives to be completed for this project are as follows:
 • To provide alert message while emergency.
 • To develop a flask based web application for GUI.
 
-Activities per Objective
+Activities per Objective:
 1. To measure the rate of heartbeat of a person ,without any physical contact.
 • The subject needs to be relaxed, steady and to be seated in front of the web cam.
 • The distance between the camera and the patient can vary between 1 and 3 meters.
@@ -83,7 +83,7 @@ of them are as follows:
 
 ***1.4 Methodologies of Problem solving***
 
-1. Face Detection
+1. Face Detection:
 The preliminary stage of the system is to detect the subject which needs to be steady
 in front of the web camera. The live video streaming must continuously progress so
 that face can be detected or it can also detect the absence of subject. The most
@@ -91,7 +91,7 @@ important part is to detect the single subject through the camera so that we wil
 using a haar cascade classifier which is an effective object detection way and helps to
 locate the subject in the live video. Face detection is refined further by extracting
 the forehead area specially for better accuracy.
-2. Defining Parameter
+2. Defining Parameter:
 The different parameters need to be set to increase the accuracy of the system.
 The required parameter are discussed below:
 • Web Camera parameter: Different parameters are defined based on require-
@@ -103,7 +103,7 @@ and buffer index are needed to set it initially some threshold values like mini-
 mum and maximum frequency for defining the range for frequency rate.
 • Heart Rate Calculation Parameters: We need to set some limit for beats per
 sec to use a specific count of frame frequency to achieve the accuracy.
-3. Image Pyramid
+3. Image Pyramid:
 This stage is to extract the feature from the face color variant. These images can
 be studied deeper using the image pyramid. There are two types of image pyramid.
 They are (A) Gaussian Pyramids (B) Laplacian Pyramids. Here we used a gaussian
@@ -114,7 +114,7 @@ scale search and extract the major characteristics. The gaussian pyramid rectifi
 the color changes happening in images and enlarges it level by level. After extracting
 features the level again reconstructs into its original size and displays the continuous
 streaming.
-4. Heart Rate Estimation
+4. Heart Rate Estimation:
 The gaussian pyramid gives refined image in the smallest pixel and on that image
 the color magnification algorithm is utilized to locate the variant in color alternate in
 veins for precise body inside video for getting the change in parameter, the bandpass
@@ -189,6 +189,7 @@ Parameter, (C) Image pyramid, and (D) Heart Rate Estimation.
 The algorithms used in the project are mentioned in this section.
 
 3.2.1 Algorithm 1
+
 Algorithm Face Detection
 1. Start
 2. Selecting Haar-like features which is Horizontal,vertical,Diagonal
@@ -198,7 +199,9 @@ of an image.
 5. Creating classifier cascades
 6. Classifies the face and shows the Green box.
 7. End.
+
 3.2.2 Algorithm 2
+
 Algorithm Gaussian Pyramid
 1. Start.
 2. Start with the original image.
@@ -207,7 +210,9 @@ image (with the Gaussian filter) and then down-sampling it.
 4. Stop at a level where the image size becomes sufficiently small (for example, 1 X 1).
 5. The function to implement the previous algorithm is left as an exercise for the reader
 6. Stop.
+
 3.2.3 Algorithm 3
+
 Algorithm Colour Magnification
 1. Start.
 2. Take a standard frame as input and apply spatial decomposition.
@@ -216,7 +221,9 @@ Algorithm Colour Magnification
 5. Reveal hidden colour changes in veins by visualizing the flow of blood.
 6. Temporal Frequencies are selected to calculate heart rate.
 7. End.
+
 3.2.4 Algorithm 4
+
 Algorithm Heartrate Estimation
 1. Start.
 2. Result provided by colour magnification is passed to the Mathematical Module.
@@ -284,6 +291,7 @@ simultaneously. For each user data is stored in excel sheet.
 ![Data stored](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Data.png "Logo Title Text 1")
 
 ***ANDROID APP***
+
 Figure 4.6 shows a splash page in android app. A splash page is a page that precedes
 any page on your website. A splash screen can appear while a game or program is launch-
 ing. It is an introduction page on a website.
@@ -317,6 +325,7 @@ in heart rate i.e. it goes beyond or below the threshold value.
 ![Alert text message](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/text.png "Logo Title Text 1")
 
 ***4.2.1 Analysis***
+
 In order to measure accuracy of our system, we have calculated heart rate on the system
 and compared it with already existing technologies/apparatus like Oximeter, Smartwatch,
 Heart rate monitoring(android app), etc. Total for each tool we have mentioned 20 read-
@@ -361,6 +370,7 @@ doing any activity. Where as oximeters are considered reliable, accurate and por
 **CONCLUSION**
 
 ***5.1 Conclusion***
+
 The purpose of the Heart rate detection system is to help the user to monitor the heart
 rate and also monitor multiple people heart rate through an android app .The main aim
 behind the proposed system is to provide contactless monitoring and heart rate checkup
@@ -381,6 +391,7 @@ in the order below.
 7. Maximizing accuracy by reducing error rate.
 
 ***5.2 Future Work***
+
 This system can further be extended and can be integrated with more featured treatment
 entities like emotions,Blood pressure ,Gesture,Mask detection and any other medical as-
 pects that are suitable. Also,automation in the medical field is possible by using this
