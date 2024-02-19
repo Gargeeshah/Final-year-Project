@@ -29,7 +29,8 @@ The problem definition of this project is as follows:
 “ To monitor and detect the Heart Rate using Image processing, and wireless networks in
 order to provide a real time system in the medical field ”.
 
-1.1.2 Objectives
+***1.1.2 Objectives***
+
 The list of objectives to be completed for this project are as follows:
 • To measure the rate of heartbeat of a person ,without any physical contact.
 • To observe multiple persons heart rate at the same time.
@@ -172,6 +173,7 @@ different technologies and tools used to implement system functionalities are di
 Also the algorithms of various system modules are stated.
 
 **3.1 Overview of Project Modules**
+
 The proposed system presents the heart rate monitoring system without any physical
 contact. The system detects the face of the subject via the digicam and performs image
 processing based totally on frames and calculates the coronary heart rate. The aim behind
@@ -181,6 +183,7 @@ The proposed system consists of different modules : (A) Face Detection, (B) Defi
 Parameter, (C) Image pyramid, and (D) Heart Rate Estimation.
 
 ***3.2 Algorithm Details***
+
 The algorithms used in the project are mentioned in this section.
 
 3.2.1 Algorithm 1
@@ -232,6 +235,7 @@ The seventh chapter explored the topic software testing. Test cases used for tes
 modules of the project along with their expected and actual outputs are also mentioned.
 This chapter describes the final output of the proposed systems. It also is the proof
 that all the functional models are efficiently implemented.
+
 ***4.1 Outcomes***
 
 According to the plan, the final outcome was supposed to be web-application/website that
