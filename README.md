@@ -29,7 +29,7 @@ The problem definition of this project is as follows:
 “ To monitor and detect the Heart Rate using Image processing, and wireless networks in
 order to provide a real time system in the medical field ”.
 
-***1.1.2 Objectives***
+***1.2 Objectives***
 
 The list of objectives to be completed for this project are as follows:
 • To measure the rate of heartbeat of a person ,without any physical contact.
@@ -57,7 +57,7 @@ Jinja2 templating.
 applications. There are thousands of functions available in OpenCV. These simple
 techniques are used to shape our images in our required format.
 
-***1.2 Project Scope and Limitations***
+***1.3 Project Scope and Limitations***
 
 No matter what project methodology you choose, it will require you first and foremost to
 define the scope of the project. The scope states what the objectives of the project are
@@ -81,7 +81,7 @@ of them are as follows:
 • Local network is required i.e all the devices must be connected to a same network.
 • Poor network connection may lead to inefficiency of the website.
 
-***1.3 Methodologies of Problem solving***
+***1.4 Methodologies of Problem solving***
 
 1. Face Detection
 The preliminary stage of the system is to detect the subject which needs to be steady
