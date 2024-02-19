@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+   <div class="start">
+	<marquee>
+     <h3 color="green" >Normal Heart Rate : Childrens(ages 6-15) 70-100 beats per minute , Adults(ages 18 and over) 60-100 beats per minute</h3>
+	</marquee>
+	
+     <form action="" method="post">
+     <!--input type="submit" value="Capture & Test"/-->
+     <p></p>
+    </form>
+	
+	<center>
+     <img src="{{ url_for('video_stream') }}">
+	</center>
+	
+   </div>
+ {% endblock %}

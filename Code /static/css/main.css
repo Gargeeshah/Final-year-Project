@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    background-image: url("/static/images/pulsegif.gif");
+	background-size: cover;
+  }
+  /*
+   * Formatting the header area
+   */
+  header {
+    background-color:#FFCOCB;
+    height: 50px;
+    width: 100%;
+    opacity: .9;
+    margin-bottom: 50px;
+    padding-top: 10px; 
+  }
+
+  header h1 {
+    margin: 0px;
+    font-size: 2em;
+    color: #fff;
+    text-transform:capitalize;
+    float:center;
+    text-align: center;    
+  }
+
+
+  /*
+   * Centering the body content
+   */
+  .container {
+    width: 70%;
+    margin: 0px auto;
+  }
+  .login {
+    margin: 0px auto;
+    width: 350px;
+    padding: 10px 10px 10px 10px;
+    background-color:lightgreen;
+    opacity: 0.9;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+  .option {
+    margin-left:500px;
+    margin-top: 170px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    background-color: lightgreen;
+    opacity: 0.8;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+  .login h1{
+    font-size: 2em;
+    color:black;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: -2px;
+  }
+
+  .login input[type=text]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: -20px;
+    text-align: center;
+    align-self: center;
+    margin-left: 25px;
+    letter-spacing: -2px; 
+  }
+
+  .login input[type=password]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: 20px;
+    text-align: center;
+    align-self: center;
+    margin-left: 25px;
+    letter-spacing: -2px; 
+  }
+/*
+  .login input[type=submit]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: 20px;
+    margin-left: 40px;
+    justify-content: center;;
+    text-align: center;
+    letter-spacing: -2px; 
+    width: 110px;
+  }*/
+
+  .login input[type=submit]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: 20px;
+    margin-left: 70px;
+    justify-content: center;;
+    text-align: center;
+    letter-spacing: -2px; 
+    width: 200px;
+  }
+
+  .coding input[type=file]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: 20px;
+    margin-left: 70px;
+    justify-content: center;;
+    text-align: center;
+    letter-spacing: -2px; 
+    width: 200px;
+  }
+
+  .coding input[type=text]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: 20px;
+    margin-left: 270px;
+    justify-content: center;;
+    text-align: center;
+    letter-spacing: -2px; 
+    width: 400px;
+  }
+
+  .option input[name=level]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: -10px;
+    margin-left: 10px;
+    justify-content: center;;
+    text-align: center;
+    letter-spacing: -2px; 
+    width: 150px;
+  }
+
+  .option input[type=submit]{
+    font-size: 1.5em;
+    color:black;
+    letter-spacing: -2px; 
+    width: 100px;
+  }
+
+  .option h1{
+    text-align: center;
+	color:white;
+  }
+
+  .coding textarea[name=pythonCode]{
+    /*margin-left: 300px;*/
+    background-color:lightgoldenrodyellow;
+    opacity: 0.8;
+    appearance: inherit;
+    border:gold;
+    border-style: solid;
+    box-shadow: ivory;
+    font: large;
+    font-weight: bold;
+    border-width: thick;
+    float: left;
+   }
+
+   .coding textarea[name=result]{
+    /*margin-left: 20px;*/
+    background-color:lightgoldenrodyellow;
+    opacity: 0.8;
+    appearance: inherit;
+    border:gold;
+    border-style: solid;
+    box-shadow: ivory;
+    font: large;
+    font-weight: bold;
+    border-width: thick;
+    float: right;
+    text-align: center;
+    color: red;
+   }
+   .coding p[id=Que]{
+     width: 600px;
+     height: 70px;
+     margin: 0px auto;
+     margin-bottom: 25px;
+     font-size: 1.5em;
+     font-weight:bold;
+     background-color: lightgreen;
+     padding: 10px;
+     /*background-color: #E6E6FA;*/
+     opacity: 0.8;
+      -webkit-border-radius: 6px;
+         -moz-border-radius: 6px;
+            border-radius: 6px;
+
+
+   }
+
+   div.coding input[type=submit]{
+     width: 200px;
+     /*margin-left: 380px;*/
+     font: bold;
+     font-size: 1.5em;
+     margin-top: 20px;
+     margin-left: 400px;
+   }
+
+  
+   .clear {clear: both;}
+
+   
+   .code ul li { list-style-type: none; float: left; margin-right: 380px;}
+   .code ul li:nth-child(2) {margin-right: 0px !important;}
+   .code ul li a { text-decoration: none; background-color: blueviolet; 
+    color: cornsilk; 
+    padding: 6px 40px; 
+    display: block;}
+  /* 
+   .login1 a{
+     margin-left: 40px;
+   }
+ */
+
+.start{
+  margin: 0px auto;
+
+}
+
+.start input[type=submit]{
+  width: 200px;
+     margin-left: 200px;
+     font: bold;
+     font-size: 1.5em;
+}
+.start h1{
+  margin-left: 100px;
+  color: white;
+}
+
+
+.coding a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 370px;
+}
+
+.coding a:hover, a:active {
+  background-color: red;
+}
+
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 400px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: gold;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+.table h2
+{
+  color:whitesmoke;
+  
+}
+
+.pest{
+  margin-left: 400px;
+  color:whitesmoke;
+}
+
+
+.pest input[name=location]{
+  font-size: 1.5em;
+  color:black;
+  margin-top: -10px;
+  margin-left: 10px;
+  justify-content: center;;
+  text-align: center;
+  letter-spacing: -2px; 
+  width: 150px;
+}
+
+.pest input[type=submit]{
+  font-size: 1.5em;
+  color:black;
+  letter-spacing: -2px; 
+  width: 100px;
+}
+h3 {
+	color:white;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
