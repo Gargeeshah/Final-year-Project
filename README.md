@@ -24,15 +24,18 @@ with web apps to rapidly develop features. These can be hosted on a cloud servic
 and accessed virtual.
 
 ***1.1 Problem Definition***
+
 The problem definition of this project is as follows:
 “ To monitor and detect the Heart Rate using Image processing, and wireless networks in
 order to provide a real time system in the medical field ”.
-1.3.2 Objectives
+
+1.1.2 Objectives
 The list of objectives to be completed for this project are as follows:
 • To measure the rate of heartbeat of a person ,without any physical contact.
 • To observe multiple persons heart rate at the same time.
 • To provide alert message while emergency.
 • To develop a flask based web application for GUI.
+
 Activities per Objective
 1. To measure the rate of heartbeat of a person ,without any physical contact.
 • The subject needs to be relaxed, steady and to be seated in front of the web cam.
@@ -53,11 +56,13 @@ Jinja2 templating.
 applications. There are thousands of functions available in OpenCV. These simple
 techniques are used to shape our images in our required format.
 
-1.2 Project Scope and Limitations
+***1.2 Project Scope and Limitations***
+
 No matter what project methodology you choose, it will require you first and foremost to
 define the scope of the project. The scope states what the objectives of the project are
 and what goals must be met to achieve success.
 Scope:
+
 1. Easy to operate like any other website and android app.
 2. The purpose of web-platform or website being developed for live monitoring of pa-
 tient.
@@ -75,7 +80,8 @@ of them are as follows:
 • Local network is required i.e all the devices must be connected to a same network.
 • Poor network connection may lead to inefficiency of the website.
 
-1.3 Methodologies of Problem solving
+***1.3 Methodologies of Problem solving***
+
 1. Face Detection
 The preliminary stage of the system is to detect the subject which needs to be steady
 in front of the web camera. The live video streaming must continuously progress so
@@ -124,9 +130,9 @@ Till the point the overview of proposed system followed by motivation and proble
 nition along with objectives has been known. The studies carried out by various authors
 related to proposed system will be figured out in further chapter.
 
-Chapter 2
+**Chapter 2**
 
-SYSTEM DESIGN
+**SYSTEM DESIGN**
 
 This chapter gives all the system designs such as system architecture and all the UML
 diagrams e.g. use-case diagram, class diagram, activity diagram, sequence diagram, etc.
@@ -157,14 +163,15 @@ provided for storing each patient’s hear rate. The backend data will be stored
 NoSQL databases. and when heart beat is beyond or above the threshold value text
 message will be send to admin’s side through Twilio messaging tool.
 
-Chapter 3
+**Chapter 3**
 
-PROJECT IMPLEMENTATION
+**PROJECT IMPLEMENTATION**
 
 Here in this chapter, the project implementation details such as various project modules,
 different technologies and tools used to implement system functionalities are discussed.
 Also the algorithms of various system modules are stated.
-3.1 Overview of Project Modules
+
+**3.1 Overview of Project Modules**
 The proposed system presents the heart rate monitoring system without any physical
 contact. The system detects the face of the subject via the digicam and performs image
 processing based totally on frames and calculates the coronary heart rate. The aim behind
@@ -173,10 +180,10 @@ to limit the hazard and additionally alert will set off via textual content mess
 The proposed system consists of different modules : (A) Face Detection, (B) Defining
 Parameter, (C) Image pyramid, and (D) Heart Rate Estimation.
 
-3.2 Algorithm Details
+***3.2 Algorithm Details***
 The algorithms used in the project are mentioned in this section.
 
-3.3.1 Algorithm 1
+3.2.1 Algorithm 1
 Algorithm Face Detection
 1. Start
 2. Selecting Haar-like features which is Horizontal,vertical,Diagonal
@@ -186,7 +193,7 @@ of an image.
 5. Creating classifier cascades
 6. Classifies the face and shows the Green box.
 7. End.
-3.3.2 Algorithm 2
+3.2.2 Algorithm 2
 Algorithm Gaussian Pyramid
 1. Start.
 2. Start with the original image.
@@ -195,7 +202,7 @@ image (with the Gaussian filter) and then down-sampling it.
 4. Stop at a level where the image size becomes sufficiently small (for example, 1 X 1).
 5. The function to implement the previous algorithm is left as an exercise for the reader
 6. Stop.
-3.3.3 Algorithm 3
+3.2.3 Algorithm 3
 Algorithm Colour Magnification
 1. Start.
 2. Take a standard frame as input and apply spatial decomposition.
@@ -204,7 +211,7 @@ Algorithm Colour Magnification
 5. Reveal hidden colour changes in veins by visualizing the flow of blood.
 6. Temporal Frequencies are selected to calculate heart rate.
 7. End.
-3.3.4 Algorithm 4
+3.2.4 Algorithm 4
 Algorithm Heartrate Estimation
 1. Start.
 2. Result provided by colour magnification is passed to the Mathematical Module.
@@ -217,15 +224,16 @@ This chapter covers the various implementation tools and technologies used for t
 posed system in brief. It also describes various modules created for the system and the
 algorithms developed to implement the same respectively.
 
-Chapter 4
+**Chapter 4**
 
-RESULTS
+**RESULTS**
 
 The seventh chapter explored the topic software testing. Test cases used for testing the
 modules of the project along with their expected and actual outputs are also mentioned.
 This chapter describes the final output of the proposed systems. It also is the proof
 that all the functional models are efficiently implemented.
-4.1 Outcomes
+***4.1 Outcomes***
+
 According to the plan, the final outcome was supposed to be web-application/website that
 a user can access. The web-application is successfully build as planned in the earlier stages.
 The proposed system gave following outcomes as a result:
@@ -240,7 +248,8 @@ health status of them.
 • The admin/Doctor is not accessing the android app then also he/she will get an
 emergency alert on mobile phone through a message about the patient’s emergency.
 
-WEB APPLICATION
+***WEB APPLICATION***
+
 Figure 4.1 describes the process, designed in such a way to run on a local host server
 that is a deployment server which is used for debugging and tracking multiple hosts con-
 nected to the server.
@@ -258,7 +267,7 @@ face Not Detected.
 Estimating heart rate and storing, updating in the database as shown in figure 4.5 is done
 simultaneously. For each user data is stored in excel sheet.
 
-ANDROID APP
+***ANDROID APP***
 Figure 4.6 shows a splash page in android app. A splash page is a page that precedes
 any page on your website. A splash screen can appear while a game or program is launch-
 ing. It is an introduction page on a website.
@@ -279,7 +288,7 @@ and shows the message-face Not Detected.
 Text message as shown in figure 4.11 is sent to the given number in case of any abnormality
 in heart rate i.e. it goes beyond or below the threshold value.
 
-4.2.1 Analysis
+***4.2.1 Analysis***
 In order to measure accuracy of our system, we have calculated heart rate on the system
 and compared it with already existing technologies/apparatus like Oximeter, Smartwatch,
 Heart rate monitoring(android app), etc. Total for each tool we have mentioned 20 read-
@@ -314,11 +323,11 @@ wrist-monitor accuracy [12], [13], it is found that smart watches are accurate a
 with respect to standard measuring heart rate tools. Also, they are less accurate after
 doing any activity. Where as oximeters are considered reliable, accurate and portable.
 
-Chapter 5
+**Chapter 5**
 
-CONCLUSION
+**CONCLUSION**
 
-5.1 Conclusion
+***5.1 Conclusion***
 The purpose of the Heart rate detection system is to help the user to monitor the heart
 rate and also monitor multiple people heart rate through an android app .The main aim
 behind the proposed system is to provide contactless monitoring and heart rate checkup
@@ -337,7 +346,7 @@ in the order below.
 5. Develop Android App for multi user Monitoring.
 6. Emergency Alert for critical Situation.
 7. Maximizing accuracy by reducing error rate.
-5.2 Future Work
+***5.2 Future Work***
 This system can further be extended and can be integrated with more featured treatment
 
 entities like emotions,Blood pressure ,Gesture,Mask detection and any other medical as-
