@@ -381,8 +381,6 @@ in the order below.
 7. Maximizing accuracy by reducing error rate.
 ***5.2 Future Work***
 This system can further be extended and can be integrated with more featured treatment
-
 entities like emotions,Blood pressure ,Gesture,Mask detection and any other medical as-
 pects that are suitable. Also,automation in the medical field is possible by using this
-
 proposed system with extra added features .
