@@ -1,6 +1,6 @@
-Chapter 1
+**Chapter 1**
 
-INTRODUCTION
+**INTRODUCTION**
 
 Measuring the HR of people has multiple applications in telemedicine, Internet-of-Things(IoT),
 sports, security, etc. However, sometimes it is difficult to use a classic method for mea-
@@ -23,7 +23,7 @@ This system is composed of:
 with web apps to rapidly develop features. These can be hosted on a cloud service
 and accessed virtual.
 
-1.1 Problem Definition
+***1.1 Problem Definition***
 The problem definition of this project is as follows:
 “ To monitor and detect the Heart Rate using Image processing, and wireless networks in
 order to provide a real time system in the medical field ”.
