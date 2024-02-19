@@ -138,7 +138,7 @@ related to proposed system will be figured out in further chapter.
 This chapter gives all the system designs such as system architecture and all the UML
 diagrams e.g. use-case diagram, class diagram, activity diagram, sequence diagram, etc.
 
-![alt text](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/System_Architecture.png "Logo Title Text 1")
+![System Architecture](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/System_Architecture.png "Logo Title Text 1")
 
 A system architecture or systems architecture is the conceptual model that defines the
 structure, behavior, and more views of a system. An architecture description is a formal
@@ -260,39 +260,61 @@ Figure 4.1 describes the process, designed in such a way to run on a local host 
 that is a deployment server which is used for debugging and tracking multiple hosts con-
 nected to the server.
 
+![Backend process](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/backend_process.png "Logo Title Text 1")
+
 The figure 4.2 is a screen shot of the login page which asks the user’s email and password
 for authentication.
+
+![Login Screen](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Login_screen.png "Logo Title Text 1")
 
 After successful login, the main interface appears which shows the camera frame and green
 frame at the center for the user where face detection is done so heart rate is calculated as
 shown in figure 4.3.
 
+![Face detected](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Face.png "Logo Title Text 1")
+
 The figure 4.4 shows where the face is detected or not in the frame and shows the message-
 face Not Detected.
 
+![Face not detected](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Not_Detected.png "Logo Title Text 1")
+
 Estimating heart rate and storing, updating in the database as shown in figure 4.5 is done
 simultaneously. For each user data is stored in excel sheet.
+
+![Data stored](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Data.png "Logo Title Text 1")
 
 ***ANDROID APP***
 Figure 4.6 shows a splash page in android app. A splash page is a page that precedes
 any page on your website. A splash screen can appear while a game or program is launch-
 ing. It is an introduction page on a website.
 
+![Splash screen of android app](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/home_screen.png "Logo Title Text 1")
+
 The figure 4.7 is a screen shot of the login page which asks the user’s email and password
 for authentication in android app.
+
+![Login screen of android app](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Login.png "Logo Title Text 1")
 
 The image 4.8 shows the dashboard displaying the heart rate of multiple patients, which
 is accessible to admin,can continuously keep track of heart rate of each patient and also
 heart rate keeps on updating frequently.
 
+![Home screennd](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/HRM.png "Logo Title Text 1")
+
 The image 4.9 shows the virtual monitoring of user/patient through clicking the check
 button of respective person in android app.
+
+![Virtual monitoring through android app](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/HRMS.png "Logo Title Text 1")
 
 The figure 4.10 shows where the face is detected or not in the frame of an android app
 and shows the message-face Not Detected.
 
+![Face not detected (android app)](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Not_detected(app).png "Logo Title Text 1")
+
 Text message as shown in figure 4.11 is sent to the given number in case of any abnormality
 in heart rate i.e. it goes beyond or below the threshold value.
+
+![Alert text message](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/text.png "Logo Title Text 1")
 
 ***4.2.1 Analysis***
 In order to measure accuracy of our system, we have calculated heart rate on the system
@@ -318,6 +340,8 @@ Accuracy = 100 − error (8.2)
 Subtracting error percentage or error rate from 100 will give us accuracy of our system
 with respect to the corresponding technology.
 
+![Readings of heartrate from different apparatus](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Result1.png "Logo Title Text 1")
+
 As shown in table 4.1 total 20 readings are displayed for each standard method which is
 taken at a 2 min interval rate and we got the respective average heart rate value from 20
 readings of each tool.
@@ -328,6 +352,9 @@ recommended to execute this in proper brightness and according to the study made
 wrist-monitor accuracy [12], [13], it is found that smart watches are accurate about 91-94%
 with respect to standard measuring heart rate tools. Also, they are less accurate after
 doing any activity. Where as oximeters are considered reliable, accurate and portable.
+
+![Error rate and Accuracy](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/Result2.png "Logo Title Text 1")
+
 
 **Chapter 5**
 
