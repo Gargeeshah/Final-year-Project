@@ -379,6 +379,7 @@ in the order below.
 5. Develop Android App for multi user Monitoring.
 6. Emergency Alert for critical Situation.
 7. Maximizing accuracy by reducing error rate.
+
 ***5.2 Future Work***
 This system can further be extended and can be integrated with more featured treatment
 entities like emotions,Blood pressure ,Gesture,Mask detection and any other medical as-
