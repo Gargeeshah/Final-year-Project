@@ -138,7 +138,7 @@ related to proposed system will be figured out in further chapter.
 This chapter gives all the system designs such as system architecture and all the UML
 diagrams e.g. use-case diagram, class diagram, activity diagram, sequence diagram, etc.
 
-![System Architecture](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/System Architecture.png)
+![alt text](https://github.com/Gargeeshah/Final-year-Project/tree/main/Img/System_Architecture.png "Logo Title Text 1")
 
 A system architecture or systems architecture is the conceptual model that defines the
 structure, behavior, and more views of a system. An architecture description is a formal
